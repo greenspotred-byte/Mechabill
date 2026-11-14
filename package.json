@@ -1,0 +1,10 @@
+{
+  "name": "garage-checkout",
+  "version": "1.0.0",
+  "description": "Garage Checkout POS with image scan OCR for mechanic bills",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "deploy": "npx wrangler pages deploy . --project-name=garage-checkout"
+  }
+}

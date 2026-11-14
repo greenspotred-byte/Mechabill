@@ -1,0 +1,9 @@
+name = "garage-checkout"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "."
+
+# ตั้งค่า API key ฝั่ง server (ไม่ใส่ในโค้ด):
+#   npx wrangler pages secret put GEMINI_API_KEY --project-name garage-checkout
+#
+# หรือตอน dev local:
+#   echo "GEMINI_API_KEY=your_key" > .dev.vars
